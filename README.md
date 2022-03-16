@@ -1,7 +1,7 @@
 <div align="center">
-    <img src="zer0bin-client.svg" height="150px"/>
+    <img src="https://raw.githubusercontent.com/zer0bin-dev/.github/main/zer0bin-client.svg" height="150px"/>
 	<br>
-    <img src="https://raw.githubusercontent.com/zer0bin-dev/.github/main/zer0bin-rainbow.svg" height="100"/>
+    <img src="https://raw.githubusercontent.com/zer0bin-dev/.github/main/zer0bin-client-rainbow.svg" height="100"/>
 	<br>
     CLI client for zer0bin
     <br>
