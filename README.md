@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="logo.png" height="150px"/>
+    <img src="zer0bin-client.svg" height="150px"/>
 	<br>
     <img src="https://raw.githubusercontent.com/zer0bin-dev/.github/main/zer0bin-rainbow.svg" height="100"/>
 	<br>
