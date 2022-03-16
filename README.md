@@ -18,3 +18,11 @@
 </p>
     <br>
 </div>
+
+# Download:
+
+Soon:tm:
+
+# Technologies used:
+
+<a href="https://www.rust-lang.org/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Rust.svg" height=40/></a>
