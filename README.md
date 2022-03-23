@@ -26,6 +26,8 @@ git clone https://github.com/zer0bin-dev/client zer0bin
 cd zer0bin
 go build -o zer0bin
 sudo mv ./zer0bin /usr/bin
+sudo mv ./zer0bin.1.gz /usr/share/man/man1/zer0bin.1.gz
+mandb
 ```
 
 # Technologies used:
