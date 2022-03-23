@@ -7,6 +7,15 @@
     <br>
 </div>
 
+# Usage:
+
+```
+$ echo "hello world" | zer0bin
+$ cat /var/logs/prog.log | zer0bin # Text only
+$ echo "other instance" | zer0bin --instance https://stepbro.voring.me
+$ cat document.md | zer0bin --md # Markdown mode
+```
+
 # Download:
 
 Soon:tm:
