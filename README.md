@@ -25,4 +25,4 @@ Soon:tm:
 
 # Technologies used:
 
-<a href="https://www.rust-lang.org/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Go.svg" height=40/></a>
+<a href="https://www.rust-lang.org/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a>
