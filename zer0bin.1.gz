@@ -1,5 +1,5 @@
 .\" Manpage for zer0bin. 
-.TH randompassword 1 "March 2022" "zer0bin man page" "User Commands" 
+.TH zer0bin 1 "March 2022" "zer0bin man page" "User Commands" 
 .SH NAME 
 zer0bin \- A client for zer0b.in and other zer0bin instances 
 .SH SYNOPSIS 
