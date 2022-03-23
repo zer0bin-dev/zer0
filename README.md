@@ -18,18 +18,14 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
-Soon:tm:
-
-For now...
 ```
-git clone https://github.com/zer0bin-dev/zer0
-cd zer0
-go build
-sudo mv ./zer0 /usr/bin
-sudo mv ./zer0.1.gz /usr/share/man/man1/zer0.1.gz
-mandb
+# Program
+go install github.com/zer0bin-dev/zer0@v1.0.0
+
+# Manpage
+sudo curl -fsSL https://raw.githubusercontent.com/zer0bin-dev/zer0/main/randompassword.1.gz -o /usr/share/man/man1/zer0.1.gz && mandb
 ```
 
 # Technologies used:
 
-<a href="https://www.rust-lang.org/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a>
+<a href="https://go.dev/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a>
