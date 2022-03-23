@@ -20,6 +20,14 @@ $ cat document.md | zer0bin --md # Markdown mode
 
 Soon:tm:
 
+For now...
+```
+git clone https://github.com/zer0bin-dev/client zer0bin
+cd zer0bin
+go build -o zer0bin
+sudo mv ./zer0bin /usr/bin
+```
+
 # Technologies used:
 
 <a href="https://www.rust-lang.org/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a>
