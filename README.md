@@ -10,10 +10,10 @@
 # Usage:
 
 ```
-$ echo "hello world" | zer0bin
-$ cat /var/logs/prog.log | zer0bin # Text only
-$ echo "other instance" | zer0bin --instance https://stepbro.voring.me
-$ cat document.md | zer0bin --md # Markdown mode
+$ echo "hello world" | zer0
+$ cat /var/logs/prog.log | zer0 # Text only
+$ echo "other instance" | zer0 --instance https://stepbro.voring.me
+$ cat document.md | zer0 --md # Markdown mode
 ```
 
 # Download:
