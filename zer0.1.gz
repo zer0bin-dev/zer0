@@ -1,0 +1,20 @@
+.\" Manpage for zer0. 
+.TH zer0 1 "March 2022" "zer0 man page" "User Commands" 
+.SH NAME 
+zer0 \- A client for zer0b.in and other zer0bin instances 
+.SH SYNOPSIS 
+echo/cat content | zer0 [--md] [--instance] 
+.SH OPTIONS 
+--instance: Change instance
+
+--md: Toggle markdown mode
+.SH EXAMPLE 
+$ echo "hello world" | zer0
+
+$ cat /var/logs/prog.log | zer0 # Text only
+
+$ echo "other instance" | zer0 --instance https://stepbro.voring.me
+
+$ cat document.md | zer0 --md # Markdown mode
+.SH "SOURCE" 
+https://github.com/zer0bin-dev/zer0
