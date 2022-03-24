@@ -18,10 +18,10 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
-<!-- ### AUR
+### AUR
 ```
-yay -S zer0 # or zer0-bin or zer0-git
-``` -->
+yay -S zer0
+```
 
 ### From source
 ```
