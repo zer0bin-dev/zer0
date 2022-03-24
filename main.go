@@ -37,7 +37,11 @@ func main() {
 	buf, _ := ioutil.ReadAll(os.Stdin)
 	content := string(buf)
 
-	resp, err := Post(*instance, content, *markdown)
+	if *markdown {
+		content = "md " + content
+	}
+
+	resp, err := Post(*instance, content)
 
 	if err != nil {
 		fmt.Println(err)
@@ -69,17 +73,14 @@ func main() {
 	fmt.Println(url)
 }
 
-func Post(instance string, content string, markdown bool) (*http.Response, error) {
-	if markdown {
-		content = "md " + content
-	}
+func Post(instance string, content string) (*http.Response, error) {
 	values := map[string]string{"content": content}
 	payload, err := json.Marshal(values)
 
 	if err != nil {
 		return nil, err
 	}
-
+	
 	return http.Post(instance + "/api/p/n", "application/json",
 		bytes.NewBuffer(payload))
 }
