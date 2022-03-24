@@ -18,7 +18,7 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
-### AUR
+### <a href="https://aur.archlinux.org/packages/zer0"><img src="https://cdn.discordapp.com/attachments/810799100940255260/956349479320158308/AUR.svg" height=20/></a> AUR
 ```
 yay -S zer0
 ```
@@ -41,4 +41,4 @@ sudo curl -fsSL https://raw.githubusercontent.com/zer0bin-dev/zer0/main/zer0.1.g
 
 # Technologies used:
 
-<a href="https://go.dev/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a>
+<a href="https://go.dev/"><img src="https://github.com/tandpfun/skill-icons/raw/main/icons/GoLang.svg" height=40/></a> <a href="https://aur.archlinux.org/packages/zer0"><img src="https://cdn.discordapp.com/attachments/810799100940255260/956349479320158308/AUR.svg" height=40/></a>
