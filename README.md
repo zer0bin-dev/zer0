@@ -18,11 +18,23 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
+### AUR
 ```
-# Program
-go install github.com/zer0bin-dev/zer0@v1.0.0
+yay -S zer0 # or zer0-bin or zer0-git
+```
 
-# Manpage
+### Binaries
+
+https://github.com/zer0bin-dev/zer0/releases/tag/v1.0.0
+
+### From source
+```
+go install github.com/zer0bin-dev/zer0@v1.0.0
+```
+(make sure you've [configured PATH correctly](./gopath.md))
+
+### Manpage
+```
 sudo curl -fsSL https://raw.githubusercontent.com/zer0bin-dev/zer0/main/randompassword.1.gz -o /usr/share/man/man1/zer0.1.gz && mandb
 ```
 
