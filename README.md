@@ -18,7 +18,7 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
-### <a href="https://aur.archlinux.org/packages/zer0"><img src="https://cdn.discordapp.com/attachments/810799100940255260/956349479320158308/AUR.svg" height=20/></a> AUR
+AUR
 ```
 yay -S zer0
 ```
