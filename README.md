@@ -35,7 +35,7 @@ go install github.com/zer0bin-dev/zer0@v1.0.0
 
 ### Manpage
 ```
-sudo curl -fsSL https://raw.githubusercontent.com/zer0bin-dev/zer0/main/randompassword.1.gz -o /usr/share/man/man1/zer0.1.gz && mandb
+sudo curl -fsSL https://raw.githubusercontent.com/zer0bin-dev/zer0/main/zer0.1.gz -o /usr/share/man/man1/zer0.1.gz && mandb
 ```
 
 # Technologies used:
