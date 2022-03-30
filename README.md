@@ -18,7 +18,7 @@ $ cat document.md | zer0 --md # Markdown mode
 
 # Download:
 
-AUR
+### AUR
 ```
 yay -S zer0
 ```
